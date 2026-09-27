@@ -18,7 +18,7 @@ namespace pr4.Classes
         public bool Black = false;
         public Grid Figure { get; set; }
 
-        public Pawn(int x, int y, bool black, Grid figure)
+        public Pawn(int x, int y, bool black)
         {
             X = x;
             Y = y;
